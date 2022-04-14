@@ -3,7 +3,7 @@ def max_3(a,b,c):
         return a
     elif b>=a and b>=c:
         return b
-    else:
+    elif c>=a and c>=b:
         return c
 
 
